@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main (){
+    int row ;
+    printf("enteer row and col");
+    scanf("%d",&row);
+    for(int i=row;i>=1;i--){        
+         for(int j=0;j<i;j++)        {printf("*\t"); }
+
+        printf("\n");
+    }
+}
